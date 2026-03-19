@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Nuevo Estudiante</h1>
+
+  <form action="" id="add-student">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad"><br>
+    <label for="nota">Nota:</label>
+    <input type="number" id="nota" name="nota"><br>
+    <input type="submit" value="Enviar">
+  </form>
+
+  <div id="students-container"></div>
+
+  <script src="main.mjs" type="module"></script>
+</body>
+</html>
